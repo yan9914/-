@@ -12,7 +12,7 @@ binary.search <- function(list,item){       #定義函數,list需要經過排序
     }
     return("None")                          #若找不到回傳結果None
 }
-
+ 
 x <- c(1,3,5,7,9)
 binary.search(x,1)
 binary.search(x,5)
